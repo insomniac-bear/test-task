@@ -1,2 +1,2 @@
 # test-task
-simply project for training
+simply web page "Portfolio" for training
