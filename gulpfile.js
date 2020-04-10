@@ -39,6 +39,7 @@ gulp.task("minjs", function () {
   .pipe(sourcemaps.init())
   .pipe(uglify())
   .pipe(rename("script.min.js"))
+  .pipe(sourcemaps.write("."))
   .pipe(gulp.dest("build/js"));
 });
 
