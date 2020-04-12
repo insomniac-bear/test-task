@@ -3,12 +3,202 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preload" href="fonts/Roboto-Regular.woff2" as="font" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.min.css" type="text/css">
   <title>Portfolio</title>
 </head>
 <body>
   <div class="sprite">
     <include src="build/img/sprite.svg"></include>
   </div>
-  
+  <section class="portfolio">
+    <h2 class="portfolio__title visually-hidden">Портфолио</h2>
+    <ul class="portfolio__list">
+      <li class="portfolio__item">
+        <a href="#" class="portfolio__link">
+          <div class="portfolio__item-active">
+            <svg class="portfolio__icon-view" width="100" height="100">
+              <use xlink:href="#icon-view"></use>
+            </svg>
+          </div>
+          <picture>
+            <source type="image/webp" srcset="img/gallery-1-desktop@1x.webp 1x, img/gallery-1-desktop@2x.webp 2x">
+            <img src="img/gallery-1-desktop@1x.jpg" srcset="img/gallery-1-desktop@2x.jpg 2x" alt="image of project" class="portfolio__img">
+          </picture>
+        </a>
+      </li>
+      <li class="portfolio__item">
+        <a href="#" class="portfolio__link">
+          <div class="portfolio__item-active">
+            <svg class="portfolio__icon-view" width="100" height="100">
+              <use xlink:href="#icon-view"></use>
+            </svg>
+          </div>
+          <picture>
+            <source type="image/webp" srcset="img/gallery-2-desktop@1x.webp 1x, img/gallery-2-desktop@2x.webp 2x">
+            <img src="img/gallery-2-desktop@1x.jpg" srcset="img/gallery-2-desktop@2x.jpg 2x" alt="image of project" class="portfolio__img">
+          </picture>
+        </a>
+      </li>
+      <li class="portfolio__item">
+        <a href="#" class="portfolio__link">
+          <div class="portfolio__item-active">
+            <svg class="portfolio__icon-view" width="100" height="100">
+              <use xlink:href="#icon-view"></use>
+            </svg>
+          </div>
+          <picture>
+            <source type="image/webp" srcset="img/gallery-1-desktop@1x.webp 1x, img/gallery-1-desktop@2x.webp 2x">
+            <img src="img/gallery-1-desktop@1x.jpg" srcset="img/gallery-1-desktop@2x.jpg 2x" alt="image of project" class="portfolio__img">
+          </picture>
+        </a>
+      </li>
+      <li class="portfolio__item">
+        <a href="#" class="portfolio__link">
+          <div class="portfolio__item-active">
+            <svg class="portfolio__icon-view" width="100" height="100">
+              <use xlink:href="#icon-view"></use>
+            </svg>
+          </div>
+          <picture>
+            <source type="image/webp" srcset="img/gallery-2-desktop@1x.webp 1x, img/gallery-2-desktop@2x.webp 2x">
+            <img src="img/gallery-2-desktop@1x.jpg" srcset="img/gallery-2-desktop@2x.jpg 2x" alt="image of project" class="portfolio__img">
+          </picture>
+        </a>
+      </li>
+      <li class="portfolio__item">
+        <a href="#" class="portfolio__link">
+          <div class="portfolio__item-active">
+            <svg class="portfolio__icon-view" width="100" height="100">
+              <use xlink:href="#icon-view"></use>
+            </svg>
+          </div>
+          <picture>
+            <source type="image/webp" srcset="img/gallery-2-desktop@1x.webp 1x, img/gallery-2-desktop@2x.webp 2x">
+            <img src="img/gallery-2-desktop@1x.jpg" srcset="img/gallery-2-desktop@2x.jpg 2x" alt="image of project" class="portfolio__img">
+          </picture>
+        </a>
+      </li>
+      <li class="portfolio__item">
+        <a href="#" class="portfolio__link">
+          <div class="portfolio__item-active">
+            <svg class="portfolio__icon-view" width="100" height="100">
+              <use xlink:href="#icon-view"></use>
+            </svg>
+          </div>
+          <picture>
+            <source type="image/webp" srcset="img/gallery-1-desktop@1x.webp 1x, img/gallery-1-desktop@2x.webp 2x">
+            <img src="img/gallery-1-desktop@1x.jpg" srcset="img/gallery-1-desktop@2x.jpg 2x" alt="image of project" class="portfolio__img">
+          </picture>
+        </a>
+      </li>
+      <li class="portfolio__item">
+        <a href="#" class="portfolio__link">
+          <div class="portfolio__item-active">
+            <svg class="portfolio__icon-view" width="100" height="100">
+              <use xlink:href="#icon-view"></use>
+            </svg>
+          </div>
+          <picture>
+            <source type="image/webp" srcset="img/gallery-2-desktop@1x.webp 1x, img/gallery-2-desktop@2x.webp 2x">
+            <img src="img/gallery-2-desktop@1x.jpg" srcset="img/gallery-2-desktop@2x.jpg 2x" alt="image of project" class="portfolio__img">
+          </picture>
+        </a>
+      </li>
+      <li class="portfolio__item">
+        <a href="#" class="portfolio__link">
+          <div class="portfolio__item-active">
+            <svg class="portfolio__icon-view" width="100" height="100">
+              <use xlink:href="#icon-view"></use>
+            </svg>
+          </div>
+          <picture>
+            <source type="image/webp" srcset="img/gallery-1-desktop@1x.webp 1x, img/gallery-1-desktop@2x.webp 2x">
+            <img src="img/gallery-1-desktop@1x.jpg" srcset="img/gallery-1-desktop@2x.jpg 2x" alt="image of project" class="portfolio__img">
+          </picture>
+        </a>
+      </li>
+    </ul>
+    
+    <ul class="portfolio__partner-list">
+      <li class="portfolio__partner-item">
+          <picture>
+            <source type="image/webp" srcset="img/logo-partner-desktop@1x.webp 1x, img/logo-partner-desktop@2x.webp 2x">
+            <img src="img/logo-partner-desktop@1x.jpg" srcset="img/logo-partner-desktop@2x.jpg 2x" alt="logo of partner" class="portfolio__partner-logo">
+          </picture>
+      </li>
+      <li class="portfolio__partner-item">
+          <picture>
+            <source type="image/webp" srcset="img/logo-partner-desktop@1x.webp 1x, img/logo-partner-desktop@2x.webp 2x">
+            <img src="img/logo-partner-desktop@1x.jpg" srcset="img/logo-partner-desktop@2x.jpg 2x" alt="logo of partner" class="portfolio__partner-logo">
+          </picture>
+      </li>
+      <li class="portfolio__partner-item">
+          <picture>
+            <source type="image/webp" srcset="img/logo-partner-desktop@1x.webp 1x, img/logo-partner-desktop@2x.webp 2x">
+            <img src="img/logo-partner-desktop@1x.jpg" srcset="img/logo-partner-desktop@2x.jpg 2x" alt="logo of partner" class="portfolio__partner-logo">
+          </picture>
+      </li>
+      <li class="portfolio__partner-item">
+          <picture>
+            <source type="image/webp" srcset="img/logo-partner-desktop@1x.webp 1x, img/logo-partner-desktop@2x.webp 2x">
+            <img src="img/logo-partner-desktop@1x.jpg" srcset="img/logo-partner-desktop@2x.jpg 2x" alt="logo of partner" class="portfolio__partner-logo">
+          </picture>
+      </li>
+    </ul>
+  </section>
+  <section class="feedback">
+    <h2 class="feedback__title visually-hidden">Форма заказа сайта</h2>
+    <header class="feedback__header">
+      <h3 class="feedback__header-title">Хотите веб-сайт?</h3>
+      <p class="feedback__header-txt">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб&#8209;дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+    </header>
+    <form action="echo" class="feedback__form">
+      <label>
+        <input type="text" class="feedback__input" placeholder="Ваше имя">
+        <span class="visually-hidden">Поле ввода имени</span>
+      </label>
+      <label>
+        <input type="email" class="feedback__input" placeholder="Ваш e-mail">
+        <span class="visually-hidden">Поле ввода электронной почты</span>
+      </label>
+      <label>
+        <textarea class="feedback__textarea" rows="7" placeholder="Сообщение" maxlength="149"></textarea>
+        <span class="visually-hidden">Поле ввода сообщения</span>
+      </label>
+      <button class="feedback__btn" type="submit">Отправить</button>
+    </form>
+  </section>
+  <footer class="footer">
+    <div class="footer__container">
+      <article class="footer__information">
+        <h3 class="footer__title">Иванов Иван</h3>
+        <p class="footer__txt">(c) 2018. Все права защищены</p>
+      </article>
+      <ul class="footer__social">
+        <li class="footer__social-items">
+          <a href="#" class="footer__social-link">
+            <svg class="footer__social-logo" width="44" height="24">
+              <use xlink:href="#icon-vk"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footer__social-items">
+          <a href="#" class="footer__social-link">
+            <svg class="footer__social-logo" width="44" height="24">
+              <use xlink:href="#icon-vk"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footer__social-items">
+          <a href="#" class="footer__social-link">
+            <svg class="footer__social-logo" width="44" height="24">
+              <use xlink:href="#icon-vk"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
 </body>
 </html>
